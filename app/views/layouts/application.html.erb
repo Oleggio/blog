@@ -2,13 +2,20 @@
 <html>
 <head>
   <title>Blog</title>
+  <img src="http://www.exuberantsolutions.com/course_logo/ruby-logo.png"> 
+  <h1>My first Ruby application!</h1>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <link rel="stylesheet" type="text/css" href="assets/stylesheets/application.css">
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
+<div class = "main" 
 <%= yield %>
+</div>
+
 
 </body>
+<footer>Oleggio 2016  @ All rights reserved</footer>
 </html>

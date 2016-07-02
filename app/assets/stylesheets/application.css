@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+
+.main{
+	width: 50%;
+    margin: 0 auto; 
+
+}
+
+
+.show_post{
+	font: normal 300% 'century gothic', arial, sans-serif;
+	margin: 0 0 0 9px;
+}
